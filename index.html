@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To-Do from API - JS</title>
+  <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>ToDo List</h1>
+</header>
+
+<main>
+    <form autocomplete="off">
+
+        <label>
+            <input id="new-todo" name="todo" type="text" placeholder="New todo..." />
+        </label>
+
+        <select id="user-todo" name="user">
+            <option disabled selected>select user</option>
+        </select>
+
+        <button>Add Todo</button> 
+             
+    </form>
+
+    <ul id="todo-list"></ul>
+
+    <div class="modal">
+      <p class="modal-content">
+      </p>
+    </div>
+</main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
