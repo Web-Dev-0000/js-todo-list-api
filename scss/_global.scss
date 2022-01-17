@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+}
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  position: relative;
+}
+.container {
+  max-width: px; // Добавить на 20 px больше макета
+  padding: 0 10px;
+  margin: 0 auto;
+}
+// .page-section {
+//   min-height: 100vh;
+//   background-image: url(../images/);
+//   background-repeat: no-repeat;
+//   background-position: top center;
+//   background-size: cover;
+// }
+
+// .title {
+//   font-family: ;
+//   font-size: px;
+  // line-height: px;
+// }
+
